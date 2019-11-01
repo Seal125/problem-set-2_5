@@ -123,7 +123,7 @@ const spliceForReal = function(array, start, remove, ...items) {
 
 // Question 13
 const concat = function(firstArray, secondArray) {
-  for (let i = 0; i < firstArray.length; i++) {
+  for (let i = 0; i < secondArray.length; i++) {
     push(firstArray, secondArray[i]);
   }
   return firstArray;
@@ -131,7 +131,7 @@ const concat = function(firstArray, secondArray) {
 
 // Question 14
 const shallowCompare = function() {
-
+  
 };
 
 // Question 15
